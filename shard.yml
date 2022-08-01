@@ -7,6 +7,6 @@ authors:
 crystal: 1.0.0
 
 scripts:
-  postinstall: gcc -Wall -O3 -c src/fdpass.c -o src/fdpass.o
+  postinstall: gcc -Wall -fPIE -O3 -c src/fdpass.c -o src/fdpass.o
 
 license: MIT
